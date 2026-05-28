@@ -1,7 +1,8 @@
 {
   "versionName": "6.6.7",
   "versionCode": 667,
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v6.6.7/qianzhihe-6.6.7-test-install.apk",
-  "releaseNotes": "更新内容：\n- 测试远程更新功能\n- 优化更新检查提示",
+  "apkName": "qianzhihe-6.6.7.apk",
+  "downloadUrl": "https://qzh.336954.xyz/APK/qianzhihe-6.6.7.apk",
+  "releaseNotes": "更新内容：\n- 修复远程更新下载配置\n- 优化安装包校验提示",
   "releasePageUrl": "https://qzh.336954.xyz/"
 }
