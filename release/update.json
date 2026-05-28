@@ -1,0 +1,8 @@
+{
+  "versionName": "6.6.8",
+  "versionCode": 668,
+  "apkName": "qianzhihe_6.6.8_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v6.6.8/qianzhihe_6.6.8_release.apk",
+  "releaseNotes": "更新内容：\n- 优化更新安装校验逻辑\n- 清理不影响功能的冗余代码\n- 优化浏览器页内搜索状态处理",
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v6.6.8/"
+}
