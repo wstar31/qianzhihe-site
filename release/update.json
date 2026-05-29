@@ -1,8 +1,8 @@
 {
-  "versionName": "7.7.8",
-  "versionCode": 778,
-  "apkName": "qianzhihe_7.7.8_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.7.8/qianzhihe_7.7.8_release.apk",
-  "releaseNotes": "更新内容：\n- 默认启用灵动岛安全模式，改善系统栏和异形屏适配\n- 浏览器工具栏搜索恢复整页全文检索，不再只搜索当前可视区域\n- 保留 7.7.7 全新主页与浏览器玻璃拟态界面、灵动岛三段停靠、上滑固定、下滑解锁\n- 保留多网页管理、页内查找、复制分享、网页收藏、移动/桌面模式切换\n- 保留收藏管理、导入导出、网址规范化、favicon 加载、更新下载安装和首次使用说明优化",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.7.8/"
+  "versionName": "7.7.9",
+  "versionCode": 779,
+  "apkName": "qianzhihe_7.7.9_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.7.9/qianzhihe_7.7.9_release.apk",
+  "releaseNotes": "更新内容：\n- 新增主页和网页灵动岛上滑固定后的自动隐藏功能\n- 灵动岛自动隐藏后仅保留浅色半透明唤醒区域，点击后恢复为非固定状态\n- 网页触摸时自动收起隐藏状态下的唤醒区域，松开后自动出现\n- 设置页新增灵动岛自动隐藏开关\n- 收藏链接检测提示补充延迟标识",
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.7.9/"
 }
