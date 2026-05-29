@@ -1,8 +1,0 @@
-{
-  "versionName": "7.7.7",
-  "versionCode": 777,
-  "apkName": "qianzhihe_7.7.7_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.7.7/qianzhihe_7.7.7_release.apk",
-  "releaseNotes": "更新内容：\n- 全新主页与浏览器玻璃拟态界面，灵动岛支持三段停靠、上滑固定、下滑解锁\n- 优化灵动岛和网页工具栏按钮观感，深浅色图标、分隔线和胶囊边缘更清晰\n- 增强应用内浏览器：多网页管理、页内查找、复制分享、网页收藏、移动/桌面模式切换\n- 修复多网页状态串扰，桌面/移动模式、强制刷新、收藏状态按当前网页独立同步\n- 增强收藏管理：分类、标签、备注、置顶、访问统计、排序、默认打开方式和重复网址去重\n- 支持 Markdown、JSON、HTML 书签导入导出，并保留站点打开方式等备份信息\n- 优化网址规范化、favicon 加载、更新下载安装、系统栏适配和首次使用说明",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.7.7/"
-}
