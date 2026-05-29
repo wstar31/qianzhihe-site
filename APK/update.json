@@ -1,0 +1,8 @@
+{
+  "versionName": "7.7.7",
+  "versionCode": 777,
+  "apkName": "qianzhihe_7.7.7_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.7.7/qianzhihe_7.7.7_release.apk",
+  "releaseNotes": "更新内容：\n- 全新主页与浏览器玻璃拟态界面，优化深浅色显示和灵动岛交互\n- 增强收藏管理：分类、标签、备注、置顶、访问统计、排序和默认打开方式\n- 增强搜索筛选：支持分类/置顶筛选和 title:/url:/tag:/分类:/note: 前缀搜索\n- 新增 Markdown/JSON 导入导出、分类新增/重命名/合并/删除\n- 增强应用内浏览器：多网页管理、收藏网页列表、页内查找、复制、分享、移动/桌面模式\n- 优化 favicon 加载、重复网址去重、链接检查、系统栏适配和浏览器启动稳定性\n- 优化主页/网页灵动岛、网页工具栏按钮顺序、线条显示强度和隐藏位置",
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.7.7/"
+}
