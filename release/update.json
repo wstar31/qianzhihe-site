@@ -1,8 +1,8 @@
 {
-  "versionName": "7.8.0",
-  "versionCode": 780,
-  "apkName": "qianzhihe_7.8.0_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.0/qianzhihe_7.8.0_release.apk",
-  "releaseNotes": "更新内容：\n- 优化主页和网页灵动岛交互体验\n- 限制主页灵动岛左右停靠边界，保持与页面组件对齐\n- 完善设置、更新检测和安装流程体验\n- 优化主页收藏管理、搜索筛选与视觉细节",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.0/"
+  "versionName": "7.8.1",
+  "versionCode": 781,
+  "apkName": "qianzhihe_7.8.1_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.1/qianzhihe_7.8.1_release.apk",
+  "releaseNotes": "更新内容：\n- 默认优先 HTTPS 加载网页，并在必要时回退 HTTP\n- 修复平板桌面模式在横屏切换后网页缩放与布局对齐问题\n- 调整灵动岛安装默认状态为滑动显示，不再默认固定隐藏\n- 完善更新检测、下载、安装与浏览体验的稳定性",
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.1/"
 }
