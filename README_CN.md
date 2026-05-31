@@ -76,20 +76,14 @@
   <img src="assets/screenshots/home.jpg" alt="千址盒主页与收藏列表" width="320">
 </p>
 
-### 设置页 - 第1张
+### 设置页
 
-这张截图主要展示显示内容区：沉浸/安全、黑夜/白昼、毛玻璃、标签、备注、访问次数和自动隐藏。
-
-<p align="center">
-  <img src="assets/screenshots/settings-display-first.jpg" alt="设置页第1张截图" width="320">
-</p>
-
-### 设置页 - 第2张
-
-这张截图展示较完整的设置抽屉，包括打开与浏览、更新检查、重置和帮助入口。
+设置页以连续截图展示，覆盖显示选项、浏览器行为、更新检查、重置操作以及帮助/关于入口。
 
 <p align="center">
-  <img src="assets/screenshots/settings-overview-second.jpg" alt="设置页第2张截图" width="320">
+  <img src="assets/screenshots/settings-display-first.jpg" alt="千址盒设置页显示选项" width="320">
+  <img src="assets/screenshots/settings-overview-second.jpg" alt="千址盒设置页浏览与更新选项" width="320">
+  <img src="assets/screenshots/settings-overview-third.jpg" alt="千址盒设置页重置与帮助选项" width="320">
 </p>
 
 ### 网址管理
