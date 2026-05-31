@@ -76,20 +76,14 @@ QianZhiHe は、よく使う URL をローカルで管理するためのアプ�
   <img src="assets/screenshots/home.jpg" alt="QianZhiHe ホーム画面とブックマークリスト" width="320">
 </p>
 
-### 設定 - 第1画像
+### 設定
 
-この画像では、没入/安全、黒夜/白昼、毛玻璃、タグ、メモ、アクセス回数、自動非表示などの表示設定を中心に示しています。
-
-<p align="center">
-  <img src="assets/screenshots/settings-display-first.jpg" alt="設定の第1画像" width="320">
-</p>
-
-### 設定 - 第2画像
-
-この画像では、開き方、ブラウザモード、更新確認、リセット、ヘルプ/情報を含む設定ドロワー全体を示しています。
+設定ドロワーは連続したスクリーンショットで表示し、表示オプション、ブラウザ動作、更新確認、リセット操作、ヘルプ/情報入口をまとめて示しています。
 
 <p align="center">
-  <img src="assets/screenshots/settings-overview-second.jpg" alt="設定の第2画像" width="320">
+  <img src="assets/screenshots/settings-display-first.jpg" alt="QianZhiHe 設定の表示オプション" width="320">
+  <img src="assets/screenshots/settings-overview-second.jpg" alt="QianZhiHe 設定のブラウザと更新オプション" width="320">
+  <img src="assets/screenshots/settings-overview-third.jpg" alt="QianZhiHe 設定のリセットとヘルプ項目" width="320">
 </p>
 
 ### URL 管理
