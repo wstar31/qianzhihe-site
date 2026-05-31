@@ -76,20 +76,14 @@ The home page is used to add, search, filter, and open saved links. The floating
   <img src="assets/screenshots/home.jpg" alt="QianZhiHe home page and bookmark list" width="320">
 </p>
 
-### Settings - First Screenshot
+### Settings
 
-This first screenshot focuses on the display section: immersive/safe mode, dark/light mode, glass level, tags, notes, visit count, and auto-hide.
-
-<p align="center">
-  <img src="assets/screenshots/settings-display-first.jpg" alt="Settings first screenshot" width="320">
-</p>
-
-### Settings - Second Screenshot
-
-This second screenshot shows the broader settings drawer with browser mode, update checking, reset options, and help/about entries.
+The settings drawer is shown as a continuous set of screenshots, covering display options, browser behavior, update checking, reset actions, and help/about entries.
 
 <p align="center">
-  <img src="assets/screenshots/settings-overview-second.jpg" alt="Settings second screenshot" width="320">
+  <img src="assets/screenshots/settings-display-first.jpg" alt="QianZhiHe settings display options" width="320">
+  <img src="assets/screenshots/settings-overview-second.jpg" alt="QianZhiHe settings browser and update options" width="320">
+  <img src="assets/screenshots/settings-overview-third.jpg" alt="QianZhiHe settings reset and help options" width="320">
 </p>
 
 ### URL Management
