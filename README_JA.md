@@ -7,7 +7,7 @@
 ![Java](https://img.shields.io/badge/Java-17-ED8B00.svg)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-2026.02.01-4285F4.svg)
 ![Room](https://img.shields.io/badge/Room-2.8.4-1976D2.svg)
-![Version](https://img.shields.io/badge/version-7.8.3-blue.svg)
+![Version](https://img.shields.io/badge/version-7.8.4-blue.svg)
 
 **Android 向けのローカル優先ブックマーク管理・カテゴリ整理・アプリ内ブラウザツール**
 
@@ -27,8 +27,8 @@
 |------|------|
 | アプリ名 | QianZhiHe / 千址盒 |
 | パッケージ名 | `com.star.qianzhihe` |
-| 現在のバージョン | `7.8.3` |
-| versionCode | `783` |
+| 現在のバージョン | `7.8.4` |
+| versionCode | `784` |
 | 最低 Android バージョン | Android 8.0 / API 26 |
 | Target SDK | API 36 |
 | 公式ドメイン | `qzh.336954.xyz` |
@@ -38,7 +38,7 @@
 最新版 APK は GitHub Releases からダウンロードできます：
 
 - [GitHub Releases](https://github.com/wstar31/qianzhihe-site/releases/latest)
-- [v7.8.3 APK](https://github.com/wstar31/qianzhihe-site/releases/download/v7.8.3/qianzhihe_7.8.3_release.apk)
+- [v7.8.4 APK](https://github.com/wstar31/qianzhihe-site/releases/download/v7.8.4/qianzhihe_7.8.4_release.apk)
 - [更新マニフェスト update.json](https://qzh.336954.xyz/release/update.json)
 
 > Android が「署名が競合するアプリが既にインストールされています」と表示する場合、同じパッケージ名で異なる署名証明書の APK が端末に存在します。先に旧バージョンでデータをエクスポートし、旧バージョンをアンインストールしてから新しい APK をインストールしてください。
@@ -244,12 +244,12 @@ https://qzh.336954.xyz/release/update.json
 
 ```json
 {
-  "versionName": "7.8.3",
-  "versionCode": 783,
-  "apkName": "qianzhihe_7.8.3_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.3/qianzhihe_7.8.3_release.apk",
+  "versionName": "7.8.4",
+  "versionCode": 784,
+  "apkName": "qianzhihe_7.8.4_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.4/qianzhihe_7.8.4_release.apk",
   "releaseNotes": "Update notes...",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.3/"
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.4/"
 }
 ```
 
@@ -326,13 +326,13 @@ app/build/outputs/apk/release/app-release.apk
 
 ## リリース手順
 
-`7.8.3` の例：
+`7.8.4` の例：
 
 1. [app/build.gradle.kts](app/build.gradle.kts) のバージョンを更新します。
 
 ```kotlin
-versionCode = 783
-versionName = "7.8.3"
+versionCode = 784
+versionName = "7.8.4"
 ```
 
 2. Release APK をビルドします。
@@ -344,7 +344,7 @@ versionName = "7.8.3"
 3. APK をリリースサイト構造へコピーします。
 
 ```text
-release/download/v7.8.3/qianzhihe_7.8.3_release.apk
+release/download/v7.8.4/qianzhihe_7.8.4_release.apk
 ```
 
 4. `release/update.json` を更新します。
@@ -354,11 +354,11 @@ release/download/v7.8.3/qianzhihe_7.8.3_release.apk
 6. GitHub Release を作成し、APK をアップロードします：
 
 ```powershell
-gh release create v7.8.3 release/download/v7.8.3/qianzhihe_7.8.3_release.apk `
+gh release create v7.8.4 release/download/v7.8.4/qianzhihe_7.8.4_release.apk `
   --repo wstar31/qianzhihe-site `
   --target main `
-  --title "v7.8.3" `
-  --notes "Publish v7.8.3 APK" `
+  --title "v7.8.4" `
+  --notes "Publish v7.8.4 APK" `
   --latest
 ```
 
