@@ -7,7 +7,7 @@
 ![Java](https://img.shields.io/badge/Java-17-ED8B00.svg)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-2026.02.01-4285F4.svg)
 ![Room](https://img.shields.io/badge/Room-2.8.4-1976D2.svg)
-![Version](https://img.shields.io/badge/version-7.8.3-blue.svg)
+![Version](https://img.shields.io/badge/version-7.8.4-blue.svg)
 
 **本地优先的网址收藏、分类管理和应用内浏览工具**
 
@@ -27,8 +27,8 @@
 |------|------|
 | 应用名称 | 千址盒 |
 | 包名 | `com.star.qianzhihe` |
-| 当前版本 | `7.8.3` |
-| versionCode | `783` |
+| 当前版本 | `7.8.4` |
+| versionCode | `784` |
 | 最低系统 | Android 8.0 / API 26 |
 | 目标 SDK | API 36 |
 | 官网域名 | `qzh.336954.xyz` |
@@ -38,7 +38,7 @@
 最新版 APK 可从 GitHub Releases 下载：
 
 - [GitHub Releases](https://github.com/wstar31/qianzhihe-site/releases/latest)
-- [v7.8.3 APK](https://github.com/wstar31/qianzhihe-site/releases/download/v7.8.3/qianzhihe_7.8.3_release.apk)
+- [v7.8.4 APK](https://github.com/wstar31/qianzhihe-site/releases/download/v7.8.4/qianzhihe_7.8.4_release.apk)
 - [更新清单 update.json](https://qzh.336954.xyz/release/update.json)
 
 > 如果安装时提示“已安装了签名冲突的应用”，说明手机上已有同包名但不同签名的旧版应用。请先在旧版内导出数据，再卸载旧版后安装新版。
@@ -242,12 +242,12 @@ https://qzh.336954.xyz/release/update.json
 
 ```json
 {
-  "versionName": "7.8.3",
-  "versionCode": 783,
-  "apkName": "qianzhihe_7.8.3_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.3/qianzhihe_7.8.3_release.apk",
+  "versionName": "7.8.4",
+  "versionCode": 784,
+  "apkName": "qianzhihe_7.8.4_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.4/qianzhihe_7.8.4_release.apk",
   "releaseNotes": "更新内容：...",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.3/"
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.4/"
 }
 ```
 
@@ -324,13 +324,13 @@ app/build/outputs/apk/release/app-release.apk
 
 ## 发布流程
 
-以 `7.8.3` 为例：
+以 `7.8.4` 为例：
 
 1. 修改 [app/build.gradle.kts](app/build.gradle.kts) 中的版本号。
 
 ```kotlin
-versionCode = 783
-versionName = "7.8.3"
+versionCode = 784
+versionName = "7.8.4"
 ```
 
 2. 构建 Release APK。
@@ -342,7 +342,7 @@ versionName = "7.8.3"
 3. 复制 APK 到发布站点结构。
 
 ```text
-release/download/v7.8.3/qianzhihe_7.8.3_release.apk
+release/download/v7.8.4/qianzhihe_7.8.4_release.apk
 ```
 
 4. 更新 `release/update.json`。
@@ -352,11 +352,11 @@ release/download/v7.8.3/qianzhihe_7.8.3_release.apk
 6. 创建 GitHub Release，并上传 APK：
 
 ```powershell
-gh release create v7.8.3 release/download/v7.8.3/qianzhihe_7.8.3_release.apk `
+gh release create v7.8.4 release/download/v7.8.4/qianzhihe_7.8.4_release.apk `
   --repo wstar31/qianzhihe-site `
   --target main `
-  --title "v7.8.3" `
-  --notes "发布 v7.8.3 APK" `
+  --title "v7.8.4" `
+  --notes "发布 v7.8.4 APK" `
   --latest
 ```
 
