@@ -7,7 +7,7 @@
 ![Java](https://img.shields.io/badge/Java-17-ED8B00.svg)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-2026.02.01-4285F4.svg)
 ![Room](https://img.shields.io/badge/Room-2.8.4-1976D2.svg)
-![Version](https://img.shields.io/badge/version-7.8.3-blue.svg)
+![Version](https://img.shields.io/badge/version-7.8.4-blue.svg)
 
 **A local-first bookmark manager, category organizer, and in-app browser for Android**
 
@@ -27,8 +27,8 @@
 |------|-------|
 | App name | QianZhiHe / 千址盒 |
 | Package name | `com.star.qianzhihe` |
-| Current version | `7.8.3` |
-| versionCode | `783` |
+| Current version | `7.8.4` |
+| versionCode | `784` |
 | Minimum Android version | Android 8.0 / API 26 |
 | Target SDK | API 36 |
 | Official domain | `qzh.336954.xyz` |
@@ -38,7 +38,7 @@
 The latest APK is available from GitHub Releases:
 
 - [GitHub Releases](https://github.com/wstar31/qianzhihe-site/releases/latest)
-- [v7.8.3 APK](https://github.com/wstar31/qianzhihe-site/releases/download/v7.8.3/qianzhihe_7.8.3_release.apk)
+- [v7.8.4 APK](https://github.com/wstar31/qianzhihe-site/releases/download/v7.8.4/qianzhihe_7.8.4_release.apk)
 - [Update manifest: update.json](https://qzh.336954.xyz/release/update.json)
 
 > If Android reports that an app with a conflicting signature is already installed, your device already has an APK with the same package name but a different signing certificate. Export your data from the old version first, uninstall the old version, and then install the new APK.
@@ -244,12 +244,12 @@ Example manifest:
 
 ```json
 {
-  "versionName": "7.8.3",
-  "versionCode": 783,
-  "apkName": "qianzhihe_7.8.3_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.3/qianzhihe_7.8.3_release.apk",
+  "versionName": "7.8.4",
+  "versionCode": 784,
+  "apkName": "qianzhihe_7.8.4_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.4/qianzhihe_7.8.4_release.apk",
   "releaseNotes": "Update notes...",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.3/"
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.4/"
 }
 ```
 
@@ -326,13 +326,13 @@ app/build/outputs/apk/release/app-release.apk
 
 ## Release Workflow
 
-Example for `7.8.3`:
+Example for `7.8.4`:
 
 1. Update the version in [app/build.gradle.kts](app/build.gradle.kts).
 
 ```kotlin
-versionCode = 783
-versionName = "7.8.3"
+versionCode = 784
+versionName = "7.8.4"
 ```
 
 2. Build the release APK.
@@ -344,7 +344,7 @@ versionName = "7.8.3"
 3. Copy the APK to the release-site structure.
 
 ```text
-release/download/v7.8.3/qianzhihe_7.8.3_release.apk
+release/download/v7.8.4/qianzhihe_7.8.4_release.apk
 ```
 
 4. Update `release/update.json`.
@@ -354,11 +354,11 @@ release/download/v7.8.3/qianzhihe_7.8.3_release.apk
 6. Create a GitHub Release and upload the APK asset:
 
 ```powershell
-gh release create v7.8.3 release/download/v7.8.3/qianzhihe_7.8.3_release.apk `
+gh release create v7.8.4 release/download/v7.8.4/qianzhihe_7.8.4_release.apk `
   --repo wstar31/qianzhihe-site `
   --target main `
-  --title "v7.8.3" `
-  --notes "Publish v7.8.3 APK" `
+  --title "v7.8.4" `
+  --notes "Publish v7.8.4 APK" `
   --latest
 ```
 
