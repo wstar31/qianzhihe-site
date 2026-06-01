@@ -1,8 +1,8 @@
 {
-  "versionName": "7.8.3",
-  "versionCode": 783,
-  "apkName": "qianzhihe_7.8.3_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.3/qianzhihe_7.8.3_release.apk",
-  "releaseNotes": "发布 7.8.2 版本：移除系统语言选项，修复更新安装可能重复拉起安装器的问题，修复构建检查中的兼容性与配置错误，并清理无效引用、优化图标状态性能。",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.3/"
+  "versionName": "7.8.4",
+  "versionCode": 784,
+  "apkName": "qianzhihe_7.8.4_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.4/qianzhihe_7.8.4_release.apk",
+  "releaseNotes": "发布 7.8.4 版本：完成项目模块化重组，站点领域逻辑迁入 site，主界面 UI 拆分为 screen、content、state、viewmodel、tokens、search、site、management、settings、chrome、components 等子包，浏览器 UI 迁入 browser/ui，更新管理逻辑迁入 update；保持原有功能行为不变，并已通过单元测试与 Debug 构建验证。",
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.4/"
 }
