@@ -1,8 +1,8 @@
 {
-  "versionName": "7.8.4",
-  "versionCode": 784,
-  "apkName": "qianzhihe_7.8.4_release.apk",
-  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.4/qianzhihe_7.8.4_release.apk",
-  "releaseNotes": "发布 7.8.4 版本：完成项目模块化重组，站点领域逻辑迁入 site，主界面 UI 拆分为 screen、content、state、viewmodel、tokens、search、site、management、settings、chrome、components 等子包，浏览器 UI 迁入 browser/ui，更新管理逻辑迁入 update；保持原有功能行为不变，并已通过单元测试与 Debug 构建验证。",
-  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.4/"
+  "versionName": "7.8.5",
+  "versionCode": 785,
+  "apkName": "qianzhihe_7.8.5_release.apk",
+  "downloadUrl": "https://qzh.336954.xyz/release/download/v7.8.5/qianzhihe_7.8.5_release.apk",
+  "releaseNotes": "发布 7.8.5 版本：优化浏览器桌面模式下登录/重定向页面的后退与前进顺序，修复部分站点跳转登录页后无法正常返回上一页的问题；同步恢复沉浸模式、灵动岛和网页渲染相关行为，保持页面显示稳定。",
+  "releasePageUrl": "https://qzh.336954.xyz/release/download/v7.8.5/"
 }
